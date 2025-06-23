@@ -48,7 +48,7 @@ export default function Navbar() {
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="size-6 outline-none active:outline-none focus:outline-none hover:text-primary-light-link dark:hover:text-primary-dark-link dark:focus:text-primary-dark-link"
+              className="size-6 outline-none active:outline-none focus:outline-none text-primary-dark-text hover:text-primary-light-link dark:hover:text-primary-dark-link dark:focus:text-primary-dark-link"
               onClick={handleMenuToggle}
               aria-label={isMenuOpen ? "Close menu" : "Open menu"}
               role="button"
