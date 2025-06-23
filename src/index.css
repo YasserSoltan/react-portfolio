@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+@theme {
+    --color-primary-light-bg: rgb(245, 245, 245);
+    --color-secondary-light-bg: #D4D4D8;
+    --color-primary-dark-bg: #0F0F0F;
+    --color-secondary-dark-bg: #000;
+    --color-primary-dark-text: #949494;
+    --color-primary-light-text: #000;
+    --color-primary-light-link: #6A7282;
+    --color-primary-dark-link: #fff;
+    --color-card-light-link: #52525C;
+    --color-card-dark-link: #0F0F0F;
+    --color-black-text: #000;
+    --color-white-text: #fff;
+    --color-primary-button: oklch(27.8% 0.033 256.848);
+    --color-primary-button-hover: #101828;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+main h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
