@@ -67,7 +67,7 @@ export default function Contact() {
       });
   };
   return (
-    <main className="bg-secondary-light-bg dark:bg-secondary-dark-bg pt-5">
+    <main className="bg-secondary-light-bg dark:bg-secondary-dark-bg pt-5 min-h-screen">
       <div className="w-full p-4">
         {/* <h1>Contact</h1> */}
         <form
