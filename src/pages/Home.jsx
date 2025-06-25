@@ -3,7 +3,7 @@ import editing from "../assets/images/video-editing.png";
 
 export default function Home() {
   return (
-    <main className="home flex flex-col md:flex-row gap-3 p-8 bg-secondary-light-bg dark:bg-secondary-dark-bg">
+    <main className="home flex flex-col md:flex-row gap-3 p-8 bg-secondary-light-bg dark:bg-secondary-dark-bg min-h-screen">
       <Link to={"/video-editing"}>
         <section>
           <div className="bg-card-light-link dark:bg-card-dark-link m-5 rounded-4xl">

@@ -18,7 +18,7 @@ export default function Navbar() {
   return (
     <div className="bg-primary-light-bg dark:bg-primary-dark-bg p-5 flex md:flex-col items-center">
       <h1 className="text-center font-bold text-5xl text-black dark:text-white pt-3 mb-4">
-        ISLAM EL-MORSI
+        AMR EL-GAREH
       </h1>
       <div className="navbar">
         <div className="hidden lg:flex flex-col  gap-4">
